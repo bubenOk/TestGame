@@ -1,0 +1,91 @@
+a {
+	color: white;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+.gray {
+	color: gray;
+}
+
+.iblock {
+	display: inline-block;
+}
+
+.big {
+	font-size: 35px;
+}
+
+.pd5 {
+	padding: 5px
+}
+
+.tC {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.btn {
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+	padding: 7px;
+	margin: 8px;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: outset;
+	display: inline-block;
+	width: 100px;
+}
+
+.pnl, .pnlBig {
+	background-color: #5fab5f;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: black;
+	border-style: outset;
+	padding: 3px;
+}
+
+.pnlBig {
+	padding: 30px;
+	padding: 10px 40px;
+	margin-top: 20px
+}
+
+.pb1 {
+	background-color: black;
+	position: relative;
+	margin-left: -50%;
+	width: 200%;
+	height: 15px;
+}
+
+.pb2 {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	background-color: red;
+}
+
+.pb3 {
+	z-index: 100;
+	color: white;
+	position: absolute;
+	width: 100%;
+}
